@@ -1,0 +1,119 @@
+
+#h1Background{
+    background-image: url(../Images/mohamed-masaau-nfF5-G6cFwY-unsplash.jpg);
+    /* <!-- Photo by <a href="https://unsplash.com/@masaaau_02?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Mohamed Masaau</a> on <a href="https://unsplash.com/s/photos/luxury?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>--> */
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    max-height: 1000px;
+    border: black solid 2px;    
+}
+
+h1{
+    position: relative;
+    top: -85vh;
+    text-align:center;
+}
+
+#Title{
+    grid-column: 1/2;
+}
+
+#section1{
+    border: black solid 2px;
+    background-color: white;
+    background-image: url(../Images/lalo-hernandez-Amo081zdJsI-unsplash.jpg);
+    /* Photo by <a href="https://unsplash.com/@lalonchera?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">lalo Hernandez</a> on <a href="https://unsplash.com/images/nature/beach?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> */
+    background-attachment: fixed;
+    height: 150vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    grid-template-rows: 40% 40%;
+    padding: 10%;
+    grid-gap: 10%
+}
+#AboutMe{
+    border: black solid 2px;
+    grid-row: 1/2;
+    background-color: white;
+    padding: 10%;
+
+}
+#placeholder{
+    border: black solid 2px;
+    grid-row: 2/3;
+    background-color: white;
+    padding: 10%;
+}
+.buffer{
+    background-color: white;
+    height: 200px;
+    width: auto;
+}
+#videoSection{
+    padding: 50px;
+    background-color: #f7f7f1;
+    background-attachment: fixed;
+    height: 150vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    height: auto;
+}
+#videoArticle{
+    background-color: white;
+    color: black;
+    
+}
+
+@media screen and (min-width:590px) {
+
+    #section1{
+        display: grid;
+        grid-template-columns: 1% 39% 40% 5%;
+        grid-template-rows: none;
+        grid-gap: 10%;
+        padding: 10% 10% 10% 0%;
+        height: 100vh;
+    }
+    #AboutMe{
+        grid-row: 1/2;
+        grid-column: 2/3;
+    }
+    #placeholder{
+        grid-row: 1/2;
+        grid-column: 3/4;
+        background-color: white;
+    }
+
+}
+@media screen and (min-width:890px) {
+    body{
+        background-color: #f7f7f1;
+    }
+    main{
+        width:890px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 20px;
+    }
+    #Heading{
+        width:890px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 20px;
+    }
+    #fullscreenBack{
+        width: 100%;
+    }
+    footer{
+        width:890px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 20px;
+    }
+}
