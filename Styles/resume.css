@@ -21,6 +21,10 @@ section article{
     margin: 10px 10px 10px 0px;
 
 }
+ul li{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 @media screen and (min-width:790px) {
     main{
         max-width: 1089px;
